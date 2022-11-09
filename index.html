@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Andrey Portfolio</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
 
@@ -15,19 +15,42 @@
     <h1>Personal Portfolio</h1>
     <nav>
     <a href="#about-me">About Me</a>
-    <a href="#github">github</a>
+    <a href="#portfolio">Portfolio</a>
     <a href="#contact">Contact</a>
     </nav>
-    <!-- <img src="./assets/images/IMG_2775.jpg" alt="Car Picture"> -->
   </header>
   
   <main>
-    <section>
 
-      <div>
-        <a  href="https://tarrol.github.io/horiseon-webpage/" >
-        <img id="horiseon" src="./assets/images/web-page-1.png" alt="Example portfolio page 1" >
+    <section>
+      
+      <div id="profilepicture"><img id="car" src="./assets/images/stillwiggle.jpg" alt="Car Picture"></div>
+      
+      <div class="center">
+        <h2 id="about-me" class="peach-background">About Me</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi aperiam libero quisquam, est, doloribus consequuntur, hic distinctio pariatur placeat laborum sapiente ipsum eligendi reiciendis? Tenetur labore sequi qui illo? Magnam?</p>
+      </div>
+      
+    </section>
+
+    <section id="portfolio">
+      <div><h2 class="center peach-background" style="margin-bottom: 25px;">My Portfolio</h2></div>
+      <div id="portfolio-center" >
+        <a href="https://tarrol.github.io/horiseon-webpage/" target="_blank" rel="noreferrer noopen">
+        <img id="horiseon" src="./assets/images/web-page-1.png" alt="Example portfolio page 1" ></a>
+
+        <a href="https://tarrol.github.io/prework-study-guide/" target="_blank" rel="noreferrer noopen">
+          <img id="smol" src="./assets/images/web-page-2.png" alt="Example portfolio page 2">
         </a>
+      </div>
+    </section>
+
+    <section>
+      <div class="center">
+        <h2 id="contact" class="center peach-background">Contact Me</h2>
+        <a>email: andrey@email.com</a>
+        <a>phone number: 949-555-5555</a>
+        <a href="http://github.com/tarrol">github.com/tarrol</a>
       </div>
     </section>
 
@@ -39,9 +62,3 @@
 
 
 </html>
-
-<!-- ">" creates a nested element 
-     "+" creates a sibling element
-     "." creates a class element 
-     "#" creates a id element
-     "*" multiplies the effect-->

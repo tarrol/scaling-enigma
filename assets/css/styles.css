@@ -1,9 +1,90 @@
+body{
+  background-color:#F5FDC6;
+}
+
+header{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  text-align: center;
+  background-color: #f5c396;
+  padding-bottom:15px;
+  padding-top:15px;
+  border-radius: 25px;
+  /* color:#e5e7e6; */
+}
+
+.peach-background{
+  background-color:#f5c396;
+  padding-top: 5px;
+  padding-bottom:5px;
+  
+}
+
+.center {
+  display:flex;
+  flex-direction: column;
+  margin: auto;
+  width: 500px;
+  text-align: center;
+}
 
 
+#portfolio {
+  margin-top: 75px;
+}
+
+#contact{
+  margin: 10px;
+}
+
+#portfolio-center{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
 
 #horiseon {
-  width: 300px;
-  height: 337px;
+  width: 500px;
+  height: 350px;
   object-fit: cover;
   object-position: 100% 0;
+  border-color: #070707;
+  border-width: 7px;
+  border-style: dashed;
+}
+
+#smol {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  object-position: 100% 0;
+  border-color: #070707;
+  border-width: 7px;
+  border-style: dashed;
+}
+
+#profilepicture {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+#car {
+  min-width: 15%;
+  min-height: 15%;
+  max-width: 35%;
+  max-height: 35%;
+  margin: auto;
+  border-radius: 100px;
+}
+
+@media only screen and (max-width: 987px) {
+  #portfolio-center {
+    flex-direction: column;    
+  }
 }
