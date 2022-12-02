@@ -30,6 +30,25 @@ header{
   text-align: center;
 }
 
+.primary {
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+  object-position: 50% 0;
+  border-color: #070707;
+  border-width: 7px;
+  border-style: dashed;
+}
+
+.secondary{
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  object-position: 100% 0;
+  border-color: #070707;
+  border-width: 7px;
+  border-style: dashed;
+}
 
 #portfolio {
   margin-top: 75px;
@@ -45,6 +64,7 @@ header{
   justify-content: center;
   flex-direction: row;
 }
+
 
 #horiseon {
   width: 500px;
